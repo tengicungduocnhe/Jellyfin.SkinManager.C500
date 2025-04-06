@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Default",
+    "author": "Jellyfin",
+    "versions": [
+      {
+        "name": "Default",
+	"description":"Default, stock, Jellyfin.",
+        "css": ""
+      }
+    ]
+  },
+  {
+    "name": "Jellyflix",
+    "author": "prayagprajapati17",
+    "versions": [
+      {
+        "name": "Default",
+	"description":"A theme that aims to replicate the red and black look of Netflix. Theme is by prayag17.",
+        "css": "@import url(https://prayag17.github.io/JellyFlix/default.css);"
+      }
+    ]
+  },
+  {
+    "name": "Monochromic",
+    "author": "EdgeMentality",
+    "versions": [
+      {
+        "name": "Default",
+        "description": "This theme aims to be minimalistic and somewhat muted in color. Add-ons and custom accent colors are possible, but not entirely supported by this plug-in. Visit the github of the theme for more information.",
+        "css": "@import url(https://ctalvio.github.io/Monochromic/default_style.css); @import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css');"
+      },
+      {
+        "name": "Sharp corners",
+        "description": "No rounded corners.",
+        "css": "@import url(https://ctalvio.github.io/Monochromic/default_style.css); @import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css'); :root {--rounding: 0px;}"
+      },
+      {
+        "name": "Accent color - blue",
+        "description": "Uses the default blue color for accents.",
+        "css": "@import url(https://ctalvio.github.io/Monochromic/default_style.css); @import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css'); @import url('https://ctalvio.github.io/Monochromic/jfblue_style.css');"
+      },
+      {
+        "name": "Accent color - purple",
+        "description": "Uses a purple shade, also suited for Jellyfin.",
+        "css": "@import url(https://ctalvio.github.io/Monochromic/default_style.css); @import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css'); @import url('https://ctalvio.github.io/Monochromic/jfpurple_style.css');"
+      },
+      {
+        "name": "Accent color - blue - sharp",
+        "description": "Uses the default blue color for accents. Sharp corners.",
+        "css": "@import url(https://ctalvio.github.io/Monochromic/default_style.css); @import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css'); @import url('https://ctalvio.github.io/Monochromic/jfblue_style.css'); :root {--rounding: 0px;}"
+      },
+      {
+        "name": "Accent color - purple - sharp",
+        "description": "Uses a purple shade, also suited for Jellyfin. Sharp corners.",
+        "css": "@import url(https://ctalvio.github.io/Monochromic/default_style.css); @import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css'); @import url('https://ctalvio.github.io/Monochromic/jfpurple_style.css'); :root {--rounding: 0px;}"
+      }
+    ]
+  },
+  {
+    "name": "Kaleidochromic",
+    "author": "EdgeMentality",
+    "versions": [
+      {
+        "name": "Default",
+        "description": "This theme aims to be more colorful and minimalistic. Add-ons and custom accent colors are possible, but not entirely supported by this plug-in. Visit the github of the theme for more information.",
+        "css": "@import url(https://ctalvio.github.io/Kaleidochromic/default_style.css); @import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css');"
+      },
+      {
+        "name": "Sharp corners",
+        "description": "No rounded corners.",
+        "css": "@import url(https://ctalvio.github.io/Kaleidochromic/default_style.css); @import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css'); :root {--rounding: 0px;}"
+      },
+      {
+        "name": "Accent color - blue",
+        "description": "Uses the default blue color for accents.",
+        "css": "@import url(https://ctalvio.github.io/Kaleidochromic/default_style.css); @import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css'); @import url('https://ctalvio.github.io/Monochromic/jfblue_style.css');"
+      },
+      {
+        "name": "Accent color - blue - sharp",
+        "description": "Uses the default blue color for accents. Sharp corners.",
+        "css": "@import url(https://ctalvio.github.io/Kaleidochromic/default_style.css); @import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css'); @import url('https://ctalvio.github.io/Monochromic/jfblue_style.css'); :root {--rounding: 0px;}"
+      }
+    ]
+  },
+  {
+    "name": "Novachromic",
+    "author": "EdgeMentality",
+    "versions":[
+          {
+            "name": "Default",
+            "description": "Novachromic is essentially Monochromic, but with another layer of overrides on top.",
+			"css" : "@import url('https://ctalvio.github.io/Novachromic/default_style.css');"          
+          }
+		]
+	},
+  {
+    "name": "JellySkin",
+    "author": "prayagprajapati17",
+    "versions": [
+      {
+        "name": "Default",
+	"description":"A very bright and colorful look using lots of drop shadows. Theme is by prayag17.",
+        "css": "@import url('https://prayag17.github.io/JellySkin/default.css');"
+      }
+    ]
+  }
+]

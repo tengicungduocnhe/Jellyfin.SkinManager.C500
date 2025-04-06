@@ -1,0 +1,35 @@
+[
+  {
+    "name": "C500",
+    "author": "TranNhung",
+    "description": "C500 hoá",
+    "defaultCss": "@import url('https://tengicungduocnhe.github.io/JellyFin_Skin_C500/JellyFin_Skin.css');",
+    "previews": [
+      {
+        "name": "Home Page",
+        "url": "https://yourdomain.com/preview-my-custom-skin.jpg"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Default",
+        "options": [
+          {
+            "type": "colorPicker",
+            "name": "Accent Color",
+            "css": ":root {--accent: $;}",
+            "default": "#e94560",
+            "description": "Thay đổi màu của chủ đề"
+          },
+          {
+            "type": "checkBox",
+            "name": "Rounded Corners",
+            "css": ".cardBox { border-radius: $; }",
+            "default": "8px",
+            "description": "Cho phép bo tròn"
+          }
+        ]
+      }
+    ]
+  }
+]
