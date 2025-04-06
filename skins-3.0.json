@@ -1,4 +1,110 @@
-[
+[{
+    "name": "Default",
+    "author": "Jellyfin",
+    "description": "Default, stock, Jellyfin.",
+    "defaultCss": "",
+    "previews": [{
+            "name": "Login Page",
+            "url": "https://raw.githubusercontent.com/danieladov/jellyfin-plugin-skin-manager/master/src/img/Default/1.png"
+        },
+        {
+            "name": "Home/Index Page",
+            "url": "https://raw.githubusercontent.com/danieladov/jellyfin-plugin-skin-manager/master/src/img/Default/2.png"
+        },
+        {
+            "name": "Library Page",
+            "url": "https://raw.githubusercontent.com/danieladov/jellyfin-plugin-skin-manager/master/src/img/Default/3.png"
+        },
+        {
+            "name": "Title page",
+            "url": "https://raw.githubusercontent.com/danieladov/jellyfin-plugin-skin-manager/master/src/img/Default/4.png"
+        }
+    ],
+    "categories": [{
+        "name": "Default",
+        "options": []
+    }]
+},
+{
+    "name": "JellySkin",
+    "author": "prayagprajapati17",
+    "description": "A very bright and colorful look using lots of drop shadows. Theme is by prayag17.",
+    "defaultCss": "@import url('https://cdn.jsdelivr.net/npm/jellyskin@latest/dist/main.css');",
+    "previews": [{
+            "name": "Login Page",
+            "url": "https://cdn.jsdelivr.net/gh/prayag17/JellySkin/img/login.jpg"
+        },
+        {
+            "name": "Home/Index Page",
+            "url": "https://cdn.jsdelivr.net/gh/prayag17/JellySkin/img/Home.jpg"
+        },
+        {
+            "name": "Library Page",
+            "url": "https://cdn.jsdelivr.net/gh/prayag17/JellySkin/img/Movies.jpg"
+        },
+        {
+            "name": "Title page",
+            "url": "https://cdn.jsdelivr.net/gh/prayag17/JellySkin/img/Title%20Page-Movie.jpg"
+        }
+    ],
+    "categories": [{
+        "name": "Default",
+        "options": [{
+                "type": "selector",
+                "name": "Gradient",
+                "description": "Changes the Jellyfin themed Hover gradient",
+                "css": "@import url('https://cdn.jsdelivr.net/gh/prayag17/JellySkin/$.css');",
+                "selections": [{
+                        "name": "Default",
+                        "value": "",
+                        "css": "@import url('https://cdn.jsdelivr.net/gh/prayag17/JellySkin/default.css');"
+                    },
+                    {
+                        "name": "Sea Gradient",
+                        "value": "seaGradient",
+                        "css": "@import url('https://cdn.jsdelivr.net/gh/prayag17/JellySkin/addons/Gradients/seaGradient.css');"
+                    },
+                    {
+                        "name": "Sunset Gradient",
+                        "value": "sunsetGradient",
+                        "css": "@import url('https://cdn.jsdelivr.net/gh/prayag17/JellySkin/addons/Gradients/sunsetGradient.css');"
+
+                    },
+                    {
+                        "name": "Mauve Gradient",
+                        "value": "morningGradient",
+                        "css": "@import url('https://cdn.jsdelivr.net/gh/prayag17/JellySkin/addons/Gradients/mauveGradient.css');"
+
+                    },
+                    {
+                        "name": "Night Sky Gradient",
+                        "value": "nightSkyGradient",
+                        "css": "@import url('https://cdn.jsdelivr.net/gh/prayag17/JellySkin/addons/Gradients/nightSkyGradient.css');"
+
+                    }                    
+                ]
+            },
+            {
+                "type": "checkBox",
+                "name": "Theme Logo",
+                "description": "Styles title page in such a way in which logos are used instead of Names.",
+                "css": "@import url('https://cdn.jsdelivr.net/gh/prayag17/JellySkin/addons/Logo.css');"
+            },
+            {
+                "type": "checkBox",
+                "name": "Compact Posters",
+                "description": "If you want to display your posters to be compact.",
+                "css": "@import url('https://cdn.jsdelivr.net/gh/prayag17/JellySkin/addons/compact-poster.css');"
+            },
+            {
+                "type": "checkBox",
+                "name": "Improve Performance",
+                "description": "Removes all gradient transparecy due to performance issues on older devices.",
+                "css": "@import url('https://cdn.jsdelivr.net/gh/prayag17/JellySkin/addons/imp-per.css');"
+            }
+        ]
+    }]
+},
   {
     "name": "C500",
     "author": "TranNhung",
