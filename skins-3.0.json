@@ -3,11 +3,11 @@
     "name": "C500",
     "author": "TranNhung",
     "description": "C500 hoá",
-    "defaultCss": "@import url('https://tengicungduocnhe.github.io/JellyFin_Skin_C500/JellyFin_Skin.css');",
+    "defaultCss": "@import url('https://tengicungduocnhe.github.io/Jellyfin.SkinManager.C500/Jellyfin.Plugin.SkinManager/Configuration/css/JellyFin_Skin.css');",
     "previews": [
       {
         "name": "Home Page",
-        "url": "https://yourdomain.com/preview-my-custom-skin.jpg"
+        "url": "https://tengicungduocnhe.github.io/HomePage.jpg"
       }
     ],
     "categories": [
