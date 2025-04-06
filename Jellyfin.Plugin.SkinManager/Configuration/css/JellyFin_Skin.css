@@ -1,0 +1,41 @@
+/*Variables*/
+:root {
+    --background: #deebeb !important; /* Màu nền tối */
+    --accent: #e94560; /* Màu nhấn */
+    --text: #e0e0e0; /* Màu chữ */
+    --card-background: #16213e; /* Màu nền thẻ */
+}
+
+/* Thay đổi nền của toàn bộ giao diện */
+body {
+    background-color: var(--accent) !important;
+    color: var(--text);
+}
+
+/* Thay đổi giao diện thẻ (card) trong thư viện */
+.cardBox {
+    background-color: var(--card-background);
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+}
+
+/* Thay đổi màu nút */
+.emby-button {
+    background-color: var(--accent);
+    color: var(--text);
+    border-radius: 5px;
+}
+
+/* Thay đổi giao diện dashboard (máy chủ) */
+.mainDrawer-scrollContainer {
+    background-color: var(--background);
+}
+
+.sectionTitle {
+    color: var(--accent);
+}
+
+/* Thay đổi giao diện trình phát video */
+.videoPlayerContainer {
+    background-color: var(--background);
+}
