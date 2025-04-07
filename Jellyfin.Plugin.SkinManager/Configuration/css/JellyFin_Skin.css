@@ -614,7 +614,7 @@
   
   #loginPage .inputLabel.inputLabelFocused,
   #loginPage .inputLabel:not(.inputLabel-float) {
-    font-size: 0.8em;
+    font-size: 13px;
     left: 4%;
     top: 4%;
     transform: none;
@@ -640,7 +640,7 @@
     backdrop-filter: none;
     box-shadow: none !important;
     padding: 4% !important;
-    font-size: 1.1em;
+    font-size: 16px;
     border: none !important;
   }
   
@@ -649,10 +649,10 @@
     top: 50%;
     left: 4%;
     transform: translateY(-50%);
-    font-size: 1.5em;
+    font-size: 16px;
     font-weight: 300;
     transition: 0.2s ease;
-    color: #8c8c8c;
+    color: #bab5b5;
   }
   
   #loginPage .inputContainer:focus,
@@ -666,12 +666,11 @@
     height: 90vh !important;
     background: transparent;
   }
-  
-  .layout-mobile #loginPage {
-    background: linear-gradient(to left, #000000bf, #000000bf),
-      url(https://tengicungduocnhe.github.io/Jellyfin.SkinManager.C500/Jellyfin.Plugin.SkinManager/Configuration/css/picture/logoHVAN.png) !important;
-    background-size: cover !important;
-  }
+
+.layout-mobile #loginPage {
+    background: linear-gradient(to left, #000000bf, #000000bf), url(https://tengicungduocnhe.github.io/Jellyfin.SkinManager.C500/Jellyfin.Plugin.SkinManager/Configuration/css/picture/logoHVAN.png) !important;
+    background-size: 100% 100% !important;
+}
   
   @media (orientation: landscape) {
     .layout-mobile #loginPage .padded-left.padded-right.padded-bottom-page {
@@ -686,15 +685,11 @@
   }
   
   /*Login background with radial gradient overlay to make it look like netflix login*/
-  
-  #loginPage {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent 20%),
-      linear-gradient(to bottom, rgba(0, 0, 0, 0.75), transparent 20%),
-      linear-gradient(to left, rgba(0, 0, 0, 0.75), transparent 20%),
-      linear-gradient(to right, rgba(0, 0, 0, 0.75), transparent 20%),
-      url(https://tengicungduocnhe.github.io/Jellyfin.SkinManager.C500/Jellyfin.Plugin.SkinManager/Configuration/css/picture/logoHVAN.png) !important;
-    background-size: cover !important;
-  }
+
+#loginPage {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent 20%), linear-gradient(to bottom, rgba(0, 0, 0, 0.75), transparent 20%), linear-gradient(to left, rgba(0, 0, 0, 0.75), transparent 20%), linear-gradient(to right, rgba(0, 0, 0, 0.75), transparent 20%), url(https://tengicungduocnhe.github.io/Jellyfin.SkinManager.C500/Jellyfin.Plugin.SkinManager/Configuration/css/picture/logoHVAN.png) !important;
+    background-size: 100% 100% !important;
+}
   
   /*video Page*/
   
@@ -971,7 +966,7 @@
   .inputLabel.inputLabelFocused,
   .selectLabel.selectLabelFocused,
   .textareaLabel.textareaLabelFocused {
-    color: var(--accent) !important;
+    color: rgb(249, 215, 215) !important;
   }
   
   .listItemIcon.notifications {
