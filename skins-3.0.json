@@ -1,0 +1,65 @@
+[{
+    "name": "Default",
+    "author": "Jellyfin",
+    "description": "Default, stock, Jellyfin.",
+    "defaultCss": "",
+    "previews": [{
+            "name": "Login Page",
+            "url": "https://raw.githubusercontent.com/danieladov/jellyfin-plugin-skin-manager/master/src/img/Default/1.png"
+        },
+        {
+            "name": "Home/Index Page",
+            "url": "https://raw.githubusercontent.com/danieladov/jellyfin-plugin-skin-manager/master/src/img/Default/2.png"
+        },
+        {
+            "name": "Library Page",
+            "url": "https://raw.githubusercontent.com/danieladov/jellyfin-plugin-skin-manager/master/src/img/Default/3.png"
+        },
+        {
+            "name": "Title page",
+            "url": "https://raw.githubusercontent.com/danieladov/jellyfin-plugin-skin-manager/master/src/img/Default/4.png"
+        }
+    ],
+    "categories": [{
+        "name": "Default",
+        "options": []
+    }]
+},
+  {
+    "name": "C500",
+    "author": "TranNhung",
+    "description": "C500 hoá.",
+    "defaultCss": "@import url('https://tengicungduocnhe.github.io/Jellyfin.SkinManager.C500/Jellyfin.Plugin.SkinManager/Configuration/css/JellyFin_Skin.css');",
+    "previews": [
+      {
+        "name": "Login Page",
+        "url": "https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/img/Login.jpg"
+      },
+      {
+        "name": "Home/Index Page",
+        "url": "https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/img/Home.jpg"
+      },
+      {
+        "name": "Library Page",
+        "url": "https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/img/Movies.jpg"
+      },
+      {
+        "name": "Title page",
+        "url": "https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/img/Title%20Page-TV.jpg"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Default",
+        "options": [
+          {
+            "type": "checkBox",
+            "name": "Theme Logo",
+            "description": "Logo",
+            "css": "@import url('https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/addons/Logo.css');"
+          }
+        ]
+      }
+    ]
+  }
+]
