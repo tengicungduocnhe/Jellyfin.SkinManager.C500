@@ -669,7 +669,7 @@
 
 .layout-mobile #loginPage {
     background: linear-gradient(to left, #000000bf, #000000bf), url(https://tengicungduocnhe.github.io/Jellyfin.SkinManager.C500/Jellyfin.Plugin.SkinManager/Configuration/css/picture/logoHVAN.png) !important;
-    background-size: contain !important;
+    background-size: 100% 100% !important;
     background-position: center !important; /* Căn giữa ảnh */
     background-repeat: no-repeat !important; /* Không lặp ảnh */
 }
@@ -693,7 +693,7 @@
                 linear-gradient(to left, rgba(0, 0, 0, 0.75), transparent 20%), 
                 linear-gradient(to right, rgba(0, 0, 0, 0.75), transparent 20%), 
                 url(https://tengicungduocnhe.github.io/Jellyfin.SkinManager.C500/Jellyfin.Plugin.SkinManager/Configuration/css/picture/logoHVAN.png) !important;
-    background-size: contain !important;
+    background-size: 100% 100% !important;
     background-position: center !important; /* Căn giữa ảnh */
     background-repeat: no-repeat !important; /* Không lặp ảnh */
 }
