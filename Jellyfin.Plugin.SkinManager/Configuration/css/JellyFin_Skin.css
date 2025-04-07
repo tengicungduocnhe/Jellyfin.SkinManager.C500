@@ -47,7 +47,7 @@
   .emby-input:focus,
   .emby-textarea:focus,
   .emby-select:focus {
-    border-color: var(--accent) !important;
+    border-color: rgb(246, 228, 194) !important;
     transform: none !important;
   }
   
@@ -555,7 +555,7 @@
   }
   
   #loginPage h1::after {
-    content: "Sign In";
+    content: "Đăng Nhập";
     font-size: 32px;
   }
   
@@ -669,7 +669,9 @@
 
 .layout-mobile #loginPage {
     background: linear-gradient(to left, #000000bf, #000000bf), url(https://tengicungduocnhe.github.io/Jellyfin.SkinManager.C500/Jellyfin.Plugin.SkinManager/Configuration/css/picture/logoHVAN.png) !important;
-    background-size: 100% 100% !important;
+    background-size: contain !important;
+    background-position: center !important; /* Căn giữa ảnh */
+    background-repeat: no-repeat !important; /* Không lặp ảnh */
 }
   
   @media (orientation: landscape) {
@@ -685,12 +687,16 @@
   }
   
   /*Login background with radial gradient overlay to make it look like netflix login*/
-
-#loginPage {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent 20%), linear-gradient(to bottom, rgba(0, 0, 0, 0.75), transparent 20%), linear-gradient(to left, rgba(0, 0, 0, 0.75), transparent 20%), linear-gradient(to right, rgba(0, 0, 0, 0.75), transparent 20%), url(https://tengicungduocnhe.github.io/Jellyfin.SkinManager.C500/Jellyfin.Plugin.SkinManager/Configuration/css/picture/logoHVAN.png) !important;
-    background-size: 100% 100% !important;
+  #loginPage {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent 20%), 
+                linear-gradient(to bottom, rgba(0, 0, 0, 0.75), transparent 20%), 
+                linear-gradient(to left, rgba(0, 0, 0, 0.75), transparent 20%), 
+                linear-gradient(to right, rgba(0, 0, 0, 0.75), transparent 20%), 
+                url(https://tengicungduocnhe.github.io/Jellyfin.SkinManager.C500/Jellyfin.Plugin.SkinManager/Configuration/css/picture/logoHVAN.png) !important;
+    background-size: contain !important;
+    background-position: center !important; /* Căn giữa ảnh */
+    background-repeat: no-repeat !important; /* Không lặp ảnh */
 }
-  
   /*video Page*/
   
   div#videoOsdPage {
@@ -966,7 +972,7 @@
   .inputLabel.inputLabelFocused,
   .selectLabel.selectLabelFocused,
   .textareaLabel.textareaLabelFocused {
-    color: rgb(249, 215, 215) !important;
+    color: rgb(242, 235, 235) !important;
   }
   
   .listItemIcon.notifications {
