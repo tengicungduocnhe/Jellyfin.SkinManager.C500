@@ -24,15 +24,7 @@
   }
   
   /* General focus element color */
-  
-  .layout-tv .paper-icon-button-light.show-focus:focus {
-    color: var(--accent) !important;
-  }
-  
-  .emby-button.show-focus:focus {
-    background: var(--accent) !important;
-  }
-  
+
   /*fieldset*/
   
   fieldset.verticalSection.verticalSection-extrabottompadding {
@@ -95,7 +87,7 @@
   }
   
   span.material-icons.checkboxIcon.checkboxIcon-checked.check {
-    background: #eee;
+    background: #f7f5f5;
     color: black;
     width: 100%;
     height: 100%;
